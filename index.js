@@ -51,13 +51,11 @@ const images = [
   },
 ];
 
-const galleryList = document.querySelector(".gallery");
+const galleryList = document.querySelector('.gallery');
 
-const imagesMarkup = images
-  .map((image) => `<li><img src="${image.url}" alt="${image.alt}"></li>`)
-  .join("");
+const imagesMarkup = images.map(image => `<li><img src="${image.url}" alt="${image.alt}" height="300"></li>`).join('');
 
-galleryList.insertAdjacentHTML("beforeend", imagesMarkup);
+galleryList.insertAdjacentHTML('beforeend', imagesMarkup);
 
 // Завдання 4
 const counterValue = document.querySelector("#value");

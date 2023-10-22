@@ -1,3 +1,7 @@
+div {
+  margin-bottom: 50px;
+}
+
 .gallery {
   display: flex;
   list-style: none;
@@ -5,7 +9,7 @@
 }
 
 .gallery li {
-  margin: 10px;
+  margin: 50px;
 }
 
 #validation-input {
